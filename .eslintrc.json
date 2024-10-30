@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:testing-library/react",
+    "plugin:jest-dom/recommended",
+    "plugin:jest/recommended"
+  ],
+  "plugins": ["import"],
+  "rules": {
+    "import/no-unresolved": "error",
+    "eol-last": ["error", "always"],
+    "no-trailing-spaces": "error",
+    "jest/no-identical-title": "error",
+    "quotes": ["error", "single", { "avoidEscape": true }],
+    "jsx-quotes": ["error", "prefer-double"],
+    "semi": ["error", "always"]
+  }
+}
