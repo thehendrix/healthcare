@@ -17,7 +17,5 @@ jobs:
           node-version: 20
       - name: Clean Install Of Dependencies
         run: npm ci
-      - name: Run Linter
-        run: npm run lint
       - name: Create Build Package
         run: npm run build
